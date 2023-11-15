@@ -86,7 +86,7 @@ body {
 .main {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 9.6rem 3.2rem;
+  padding: 6.4rem 3.2rem 9.6rem 3.2rem;
 }
 
 .main-section-heading {
@@ -108,10 +108,10 @@ body {
 .button:visited {
   display: inline-block;
 
-  padding: 1.6rem 4.4rem;
+  padding: 1.4rem 2.8rem;
   border-radius: 9px;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
 
   transition: background-color 0.3s;
@@ -180,4 +180,45 @@ body {
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fdf2e9;
+  padding: 3.6rem 5.2rem;
+
+  /* for sticky */
+  height: 9.6rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.6rem;
+  list-style: none;
+}
+
+.menu-item {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+
+  transition: color 0.3s;
+}
+
+.menu-item:link,
+.menu-item:visited {
+  color: #495057;
+}
+
+.menu-item:hover,
+.menu-item:active {
+  color: #e67e22;
 }
