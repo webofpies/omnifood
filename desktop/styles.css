@@ -278,7 +278,7 @@ strong {
 }
 
 .heading2 {
-  font-size: 3.6rem;
+  font-size: 4.4rem;
   margin-bottom: 9.6rem;
   color: #343a40;
 }
@@ -455,4 +455,65 @@ strong {
 .recipes-link:hover,
 .recipes-link:active {
   border-bottom: transparent;
+}
+
+/* TESTIMONIALS */
+
+.testimonials-container,
+.testimonials {
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+}
+
+.testimonials {
+  align-items: center;
+  background-color: #fdf2e9;
+}
+
+.testimonials-container {
+  gap: 9.6rem;
+}
+
+.testimonials-block {
+  padding: 8rem;
+}
+
+.testimonial-author-image {
+  border-radius: 50%;
+}
+
+.gallery-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1.8rem;
+  gap: 1.8rem;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}
+
+.gallery-img-container {
+  overflow: hidden;
+}
+
+.testimonial-author-image {
+  width: 20%;
+  margin-bottom: 1.8rem;
+}
+
+.testimonial-quote {
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  line-height: 1.6;
+}
+
+.testimonial-author {
+  font-size: 1.4rem;
 }
