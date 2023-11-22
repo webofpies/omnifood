@@ -517,3 +517,127 @@ strong {
 .testimonial-author {
   font-size: 1.4rem;
 }
+
+/* plan */
+
+.plans {
+  margin: 0 auto;
+  max-width: 120rem;
+  padding: 9.6rem 3.2rem 9.6rem 3.2rem;
+}
+
+.plan-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 8rem;
+}
+
+.plan-starter {
+  justify-self: end;
+}
+
+.plan-details-list {
+  list-style: none;
+}
+
+.plan-card {
+  width: 75%;
+  /* height: 40rem;  */
+  border-radius: 10px;
+
+  padding: 4.6rem;
+}
+
+.best-value-container {
+  position: absolute;
+  background-color: rgb(255, 217, 0);
+  transform: rotate(45deg);
+  padding: 1rem 5rem;
+  right: -5rem;
+  top: 3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.plan-starter {
+  border: 2px #fdf2e9 solid;
+}
+
+.plan-complete {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+
+.plan-card-name {
+  font-size: 2.2rem;
+  color: #e67e22;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  /* text-align: center; */
+}
+
+.price {
+  font-size: 6.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.dollar {
+  font-size: 3.6rem;
+  font-weight: 500;
+}
+
+.price-description {
+  font-size: 1.6rem;
+}
+
+.plan-card-top,
+.plan-button-container {
+  text-align: center;
+}
+
+.plan-starter .diet-list .diet-list-item:last-child {
+  text-decoration: line-through;
+}
+
+.plan-button-container {
+  margin-top: 4.4rem;
+}
+
+.plan-card-top {
+  margin-bottom: 4.4rem;
+}
+
+/*  features */
+
+.features-info {
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.6rem;
+  margin-bottom: 8rem;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4rem;
+}
+
+.feature-name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.feature-icon {
+  color: #e67e22;
+  font-size: 3.6rem;
+  padding: 1.6rem;
+  background-color: #fae5d3;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
