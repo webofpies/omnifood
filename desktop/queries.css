@@ -1,0 +1,98 @@
+/* 1344px */
+@media (max-width: 84em) {
+  .main {
+    max-width: 120rem;
+  }
+
+  .main-section-heading {
+    font-size: 4.4rem;
+  }
+
+  /* .gallery-block {
+    grid-template-columns: 1fr 1fr;
+  } */
+
+  .testimonials-block {
+    padding: 4.8rem;
+  }
+}
+
+/* 1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading2 {
+    font-size: 3.6rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .grid {
+    gap: 6.4rem;
+  }
+
+  .testimonials-block {
+    padding: 8rem;
+  }
+
+  .featured-imgs img {
+    height: 2.4rem;
+  }
+}
+
+/* 944px  */
+@media (max-width: 59em) {
+  .main {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 6.4rem 8rem 9.6rem 8rem;
+  }
+
+  .customers {
+    justify-content: center;
+  }
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-block {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .cta-card {
+    grid-template-columns: 6fr 4fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  .for-button {
+    margin-top: 2rem;
+  }
+
+  .card-text {
+    padding: 3.2rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .plan-cards-container {
+    gap: 4.8rem;
+  }
+
+  .plan-card {
+    width: 90%;
+  }
+
+  .features-container {
+    
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/*  704px - mobile navigation*/
+@media (max-width: 44em) {
+    /*  */
+}
