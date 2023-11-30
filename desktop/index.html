@@ -7,19 +7,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="queries.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="header">
-      <img src="img/omnifood-logo.png" alt="" class="logo" />
+      <a href="#"><img src="img/omnifood-logo.png" alt="logo" class="logo" /></a>
       <nav class="nav">
         <ul class="nav-list">
-          <li><a href="#" class="menu-item">How it works</a></li>
-          <li><a href="#" class="menu-item">Meals</a></li>
-          <li><a href="#" class="menu-item">Testimonials</a></li>
-          <li><a href="#" class="menu-item">Pricing</a></li>
-          <li><a href="#" class="button cta-button">Try for free</a></li>
+          <li><a href="#how-it-works" class="menu-item nav-link">How it works</a></li>
+          <li><a href="#meals" class="menu-item nav-link">Meals</a></li>
+          <li><a href="#testimonials" class="menu-item nav-link">Testimonials</a></li>
+          <li><a href="#pricing" class="menu-item nav-link">Pricing</a></li>
+          <li><a href="#cta" class="button cta-button nav-link">Try for free</a></li>
         </ul>
       </nav>
 
@@ -37,8 +38,8 @@
               The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your
               personal tastes and nutritional needs.
             </p>
-            <a href="#" class="button cta-button margin-right-sm">Start eating well</a>
-            <a href="#" class="button learn-button">Learn more &darr;</a>
+            <a href="#cta" class="button cta-button margin-right-sm">Start eating well</a>
+            <a href="#how-it-works" class="button learn-button">Learn more &darr;</a>
             <div class="customers">
               <div class="customers-img-container">
                 <img src="img/customers/customer-1.jpg" alt="customer image" class="customer-img" />
@@ -68,7 +69,7 @@
         </div>
       </section>
 
-      <section class="how-it-works">
+      <section id="how-it-works" class="how-it-works">
         <div>
           <span class="subheading">How it works</span>
           <h2 class="heading2">Your daily dose of health in 3 simple steps</h2>
@@ -111,7 +112,7 @@
         </div>
       </section>
 
-      <section class="meals">
+      <section id="meals" class="meals">
         <div class="meals-heading-container">
           <span class="subheading">Meals</span>
           <h2 class="heading2">Omnifood AI chooses from 5,000+ recipes</h2>
@@ -200,7 +201,7 @@
         <div class="recipes-link-container"><a href="#" class="recipes-link">See all recipes &rarr;</a></div>
       </section>
 
-      <section class="testimonials">
+      <section id="testimonials" class="testimonials">
         <div class="testimonials-block">
           <div>
             <span class="subheading">Testimonials</span>
@@ -293,7 +294,7 @@
         </div>
       </section>
 
-      <section class="plans">
+      <section id="pricing" class="plans">
         <div>
           <span class="subheading">Pricing</span>
           <h2 class="heading2">Eating well without breaking the bank</h2>
@@ -396,7 +397,7 @@
         </div>
       </section>
 
-      <section class="cta">
+      <section id="cta" class="cta">
         <div class="cta-card-container">
           <div class="cta-card">
             <div class="cta-text">

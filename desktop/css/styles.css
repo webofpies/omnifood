@@ -66,6 +66,8 @@ html {
   font-size: 62.5%;
   /*for mobile nav menu (translated to the right) to be hidden*/
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -90,6 +92,10 @@ strong {
 
 .main-section {
   background-color: #fdf2e9;
+}
+
+.sticky .main-section {
+  margin-top: 9.6rem;
 }
 
 .main {
@@ -202,6 +208,18 @@ strong {
 
   /* for sticky */
   height: 9.6rem;
+}
+
+.sticky .header {
+  position: fixed;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255, 0.97);
+  z-index: 999;
 }
 
 .button-mobile-nav {
@@ -741,7 +759,7 @@ strong {
 
 .cta-img {
   background: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)),
-    url("img/eating.jpg");
+    url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
 }
